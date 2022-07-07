@@ -61,6 +61,69 @@ Here are my notes about how I created the wire5 Ruby on Rails web application
     fallstechdave@mmrxps17:~/railsprojects/wire5$ cat .ruby-version 
     3.1.2
     fallstechdave@mmrxps17:~/railsprojects/wire5$ 
+    fallstechdave@mmrxps17:~/railsprojects/wire5$ tree -d -L 4
+    .
+    ├── app
+    │   ├── assets
+    │   │   ├── builds
+    │   │   ├── config
+    │   │   ├── images
+    │   │   └── stylesheets
+    │   ├── channels
+    │   │   └── application_cable
+    │   ├── controllers
+    │   │   └── concerns
+    │   ├── helpers
+    │   ├── javascript
+    │   │   └── controllers
+    │   ├── jobs
+    │   ├── mailers
+    │   ├── models
+    │   │   └── concerns
+    │   └── views
+    │       ├── articles
+    │       └── layouts
+    ├── bin
+    ├── config
+    │   ├── environments
+    │   ├── initializers
+    │   └── locales
+    ├── db
+    │   └── migrate
+    ├── lib
+    │   ├── assets
+    │   └── tasks
+    ├── log
+    ├── public
+    │   └── assets
+    │       └── controllers
+    ├── storage
+    ├── test
+    │   ├── channels
+    │   │   └── application_cable
+    │   ├── controllers
+    │   ├── fixtures
+    │   │   └── files
+    │   ├── helpers
+    │   ├── integration
+    │   ├── mailers
+    │   ├── models
+    │   └── system
+    ├── tmp
+    │   ├── cache
+    │   │   ├── assets
+    │   │   │   └── sprockets
+    │   │   └── bootsnap
+    │   │       ├── compile-cache-iseq
+    │   │       └── compile-cache-yaml
+    │   ├── pids
+    │   ├── sockets
+    │   └── storage
+    └── vendor
+        └── javascript
+
+    58 directories
+    fallstechdave@mmrxps17:~/railsprojects/wire5$ 
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 
@@ -74,7 +137,7 @@ Here are my notes about the laptop environment on which I created the wire5 Ruby
     npm --version         8.11.0
     yarn --version        1.22.19
     rbenv --version       rbenv 1.2.0-14-gc6cc0a1
-    @uby --version        ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-linux]
+    ruby --version        ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-linux]
     rails --version       Rails 7.0.3
     git --version         git version 2.25.1
     passenger --version   Phusion Passenger(R) 6.0.14
