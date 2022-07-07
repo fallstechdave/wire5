@@ -419,5 +419,11 @@ Here are my notes about the github repository for the wire5 Rails application
     797  git remote -v
     798  history | tail
     fallstechdave@mmrxps17:~/railsprojects/wire5$ 
+    fallstechdave@mmrxps17:~/railsprojects/wire5$ git log --pretty=format:"%h - %an, %ad : %s" -10
+    cc41654 - fallstechdave, Thu Jul 7 07:37:44 2022 -0400 : additions to README.md
+    94ea137 - fallstechdave, Thu Jul 7 07:23:35 2022 -0400 : additions to README.md
+    5a53ac7 - fallstechdave, Thu Jul 7 07:13:50 2022 -0400 : first commit
+    fallstechdave@mmrxps17:~/railsprojects/wire5$ 
+
 
 
